@@ -32,6 +32,12 @@ class CallBook:
         self.number = number
         self.email = email
         self.address = address
+
+    # def printInfo(self):
+    #     print('Name:', self.name)
+    #     print('Phone:', self.number)
+    #     print('Email:', self.email)
+    #     print('Address:', self.address)
     for _ in range(5):
         print('1. 연락처 입력\n2. 연락처 출력\n3. 연락처 삭제\n4. 종료')
         menu = input('메뉴선택: ')
@@ -50,4 +56,9 @@ class CallBook:
             print('')
         else:
             break
-aa = CallBook()
+
+cb = CallBook()
+
+# if __name__ == '__main__':
+#     cb2=CallBook('park','110-232-232','tttt@mail','seoul')
+#     cb2.printInfo()
